@@ -34,7 +34,7 @@ var musicNameList=document.getElementsByClassName("musics-list")[0];
 //当前播放音乐序号
 var musicId = 0;
 var musicData = [
-  ["忘记时间", "胡歌"],
+  ["忘记时间", "陈梓熙 25216950127"],
   ["曹操", "林俊杰"],
   ["盗将行", "上河"],
   ["霜雪千年", "陈元喜"],
@@ -247,4 +247,5 @@ function createMusicList(){
 }
 
 //加载整个页面元素时触发的事件
+
 document.addEventListener('DOMContentLoaded',createMusicList);
